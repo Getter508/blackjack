@@ -32,13 +32,13 @@ RSpec.describe Hand do
     end
   end
 
-  describe "#contains_ace?" do
+  describe "#contains_high_ace?" do
     it "returns true if hand contains an ace" do
-      expect(hand.contains_ace?).to be_falsey
+      expect(hand.contains_high_ace?).to be_falsey
     end
 
     it "returns false if hand does not contain an ace" do
-      expect(hand3.contains_ace?).to be_truthy
+      expect(hand3.contains_high_ace?).to be_truthy
     end
   end
 end

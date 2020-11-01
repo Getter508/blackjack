@@ -81,7 +81,7 @@ class Game
   end
 
   def dealer_outcome
-    dealer.bust? ? "\nD#{DEALER_STR} Busts. You win!" : "\n#{DEALER_STR} stands.\n\n"
+    dealer.bust? ? "\n#{DEALER_STR} Busts. You win!" : "\n#{DEALER_STR} stands.\n\n"
   end
 
   def determine_winner
